@@ -1,0 +1,106 @@
+.confirmModal {
+    width: 420px;
+    margin: auto;
+}
+
+.confirmModalHeader {
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 0px 0px 0px !important;
+    border-bottom: 0 !important;
+}
+
+.modalHeaderLeftContainer {
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalHeaderLeftContainer h4 {
+    font-family: "HarmoniaSansProCyrBlack";
+    font-size: 20px;
+    color: #354168;
+}
+
+.modalHeaderLeftContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 0 0px;
+}
+
+.modalHeaderRightContainer {
+    position: absolute;
+    top: 18px;
+    right: 20px;
+}
+
+.modalHeaderRightContainer .closeButton {
+    height: 30px;
+    width: 30px;
+    background-color: #e8eefc;
+    border-radius: 50px;
+    border: 1px solid #b9ccfa;
+    cursor: pointer;
+    line-height: 28px;
+    text-align: center;
+}
+
+.modalHeaderRightContainer .closeButton img {
+    width: 8px;
+}
+
+.headerMessage {
+    font-family: "HarmoniaSansProCyrRegular";
+    color: #354168;
+    font-weight: bold;
+    padding: 30px 0;
+    flex: 8;
+}
+
+.confirmModalBody {
+    padding: 5px 20px 15px 20px;
+}
+
+.confirmModal .modalMiddleIcon {
+    padding: 10px 0;
+    height: 80px;
+    width: 80px;
+    line-height: 57px;
+    border: 2px solid #0649bf;
+    background-color: #0b58de;
+    text-align: center;
+    margin: auto;
+    border-radius: 100px;
+}
+
+.confirmModal .modalMiddleIcon img {
+    width: 30px;
+}
+
+.finalMessage {
+    font-family: "AnoRegular";
+    line-height: 20px;
+    font-size: 14px;
+    text-align: center;
+    color: #7d85a2;
+    width: 100%;
+    margin: 0px auto 0px;
+    padding: 0 10px;
+}
+
+.finalMessage p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.confirmModalFooter {
+    padding: 20px 0 !important;
+    text-align: center;
+}
+
+.confirmModalFooter span {
+    margin: 0 10px;
+}

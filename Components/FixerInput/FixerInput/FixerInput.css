@@ -1,0 +1,56 @@
+.fixerInput {
+    position: relative;
+}
+
+.fixerInput input {
+    padding-right: 40px;
+}
+
+.fixerInput__validIcon {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+
+    width: 21px;
+    height: 21px;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.fixerInput__validIcon.show {
+    opacity: 1;
+}
+
+.fixerInput__invalid {
+    border-color: #ff6a6a !important;
+}
+
+.fixerInput__invalidMessage {
+    font-family: "AnoRegular";
+    font-size: 12px;
+    line-height: 12px;
+    
+    color: #ff6a6a;
+    opacity: 0;
+    transition: 0.1s ease-in-out;
+}
+
+.fixerInput__invalidMessageInput {
+    position: absolute;
+    bottom: -20px;
+    left: 20px;
+}
+
+.fixerInput__invalidMessageTextarea {
+    position: absolute;
+    bottom: -75px;
+    left: 5px;
+}
+
+.fixerInput__invalidMessage.show {
+    opacity: 1;
+}
+
+.fixerInput__textarea {
+    border-radius: 0;
+}
